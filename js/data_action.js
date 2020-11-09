@@ -1,6 +1,6 @@
 data_action = [
     {
-        title: "공격 가하기",
+        title: "공격",
         icon: "crossed-swords",
         subtitle: "Melee or ranged attack",
         description: "Perform a melee or ranged attack with your weapon",
