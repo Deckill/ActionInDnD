@@ -6,15 +6,15 @@ data_action = [
         description: "근접 또는 장거리 공격을 합니다.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "파이터의 <i>행동 연쇄</i> 요소 같은 몇몇 기능들을 이용하면, 당신은 공격 행동으로 여러 차례의 공격을 가할 수도 있습니다. 각각의 공격들은 각각의 명중 굴림을 사용하고 다른 생물을 목표로 지정할 수 있습니다. 당신은 공격 간에 움직일 수 있습니다.",
+            "당신이 한 손에 드는 경량형 근접 무기를 사용하여 공격 행동을 취한 경우, 추가 행동을 사용하여 반대편 손에 쥐고 있는 다른 경량형 근접 무기로도 공격을 가할 수 있습니다. (see the <i>Offhand attack</i> bonus action).",
+            "공격 횟수중 1회를 대신해 붙잡기 또는 밀어붙이기를 사용할 수 있습니다.",
+            "몇몇 상태은 공격 굴림에 이점을 얻습니다: 장님 상태, 마비 상태, 석화 상태, 포박 상태, 충격 상태, 또는 무의식 상태의 크리쳐를 공격; 넘어진 크리쳐를 5ft내에서 근접 공격; 투명 상태 또는 은신 상태의 크리쳐의 공격.",
+            "몇몇 상태은 공격 굴림에 불리점을 얻습니다: 투명 상태 또는 은신 상태의 크리쳐를 공격하려는 명중 굴림; 넘어진 상태의 크리쳐를 장거리 공격하려는 명중 굴림; 장님 상태, 공포 상태, 중독 상태, 포박 상태의 크리쳐의 명중 굴림."
         ]
     },
     {
-        title: "Grapple",
+        title: "붙잡기",
         icon: "grab",
         subtitle: "Special melee attack",
         description: "Attempt to grab a creature or wrestle with it",
