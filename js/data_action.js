@@ -16,14 +16,14 @@ data_action = [
     {
         title: "붙잡기",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "특별한 근접 공격",
+        description: "크리쳐와 몸싸움을 하며 붙잡기를 시도합니다.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "당신이 어떤 크리쳐와 몸싸움을 하며 붙잡으려 한다면, 공격 행동을 사용할 때 특별한 형태의 근접 공격인 붙잡기를 시도할 수 있습니다. 공격 행동 한 번으로 여러 번 명중 굴림을 할 수 있다면, 그 횟수 중 1회를 대신해 붙잡기를 시도할 수도 있습니다.",
+            "당신은 자기보다 한 단계 큰 목표까지 붙잡을 수 있으며, 간격 내에 있는 목표만 붙잡으려 시도할 수 있습니다.",
+            "붙잡으려면 최소한 한 손이 자유로워야 하며, 이 손을 이용해 판정합니다. 이 판정은 당신의 근력(운동) 판정과 목표의 근력(운동) 또는 민첩(곡예)판정 사이의 대결로 이루어집니다. (목표는 자신이 사용하는 판정을 정할 수 있습니다.) ",
+            " 대결에서 당신이 이겼다면 목표는 붙잡힌 상태(붙잡힌 상태 참조)가 됩니다. (이동속도가 0이 됩니다.)"
         ]
     },
     {
