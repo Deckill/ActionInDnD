@@ -2,8 +2,8 @@ data_action = [
     {
         title: "공격",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "근접 또는 장거리 공격",
+        description: "근접 또는 장거리 공격을 합니다.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
