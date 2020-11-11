@@ -1,6 +1,6 @@
 data_action = [
     {
-        title: "공격",
+        title: "공격/Attack",
         icon: "crossed-swords",
         subtitle: "근접 또는 장거리 공격",
         description: "근접 또는 장거리 공격을 합니다.",
@@ -14,7 +14,7 @@ data_action = [
         ]
     },
     {
-        title: "붙잡기",
+        title: "붙잡기/Grapple",
         icon: "grab",
         subtitle: "특별한 근접 공격",
         description: "크리쳐와 몸싸움을 하며 붙잡기를 시도합니다.",
