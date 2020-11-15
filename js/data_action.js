@@ -16,7 +16,7 @@ data_action = [
     {
         title: "붙잡기/Grapple",
         icon: "grab",
-        subtitle: "특별한 근접 공격",
+        subtitle: "특수 근접 공격",
         description: "크리쳐와 몸싸움을 하며 붙잡기를 시도합니다.",
         reference: "PHB, pg. 195.",
         bullets: [
@@ -27,111 +27,111 @@ data_action = [
         ]
     },
     {
-        title: "Shove",
+        title: "밀어붙이기/Shove",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "특수 근접 공격",
+        description: "크리쳐를 밀어붙여서 쓰러트리거나 멀리 밀어낼 수 있습니다.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "당신은 <i>공격</i> 행동을 사용해서 특별한 공격 행동인 밀어붙이기를 통해 상대를 쓰러트리거나 멀리 밀어낼 수 있습니다. 당신이 공격 행동으로 여러 번의 공격을 가할 수 있다면, 밀어붙이기는 그 공격 횟수 중 1회를 대신해 사용할 수 있습니다.",
+            "당신은 자기보다 한 단계 큰 목표까지 밀 수 있으며, 간격 내에 있는 목표만 밀어내려 시도할 수 있습니다.",
+            "이 시도는 당신의 근력(운동) 판정과 목표의 근력(운동) 또는 민첩(곡예) 판정 사이의 대결로 이루어집니다. (목표는 자신이 사용하는 판정을 정할 수 있습니다.)",
+            "당신이 승리하면, 당신은 상대를 넘어트리거나 5ft 멀리 밀어낼 수있습니다."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "주문 시전/Cast A Spell",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "1 행동의 시전 시간",
+        description: "행동을 사용하여 주문을 시전할 수 있습니다.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "추가 행동으로 주문을 시전할 경우, 시전 시간이 1 행동인 소마법들을 제외하면 해당 턴에 또 다른 주문을 시전할 수 없습니다.",
+            "주문의 목표는 사거리 내에 있는 대상이어야 합니다. 어떤 대상을 목표로 삼으려면 먼저 그 대상에 대한 사선이 확보되어야 하며, 완전 엄폐 뒤에 숨으면 목표로 지정할 수 없습니다.",
+            "<i>구성요소 주머니</i>나 <i>주문시전 매개체</i>를 사용하면, 주문에 필요한 대부분의 구성요소를 대신할 수 있습니다. 하지만 구성요소에 따로 비용이 명시되어 있는 경우, 캐릭터는 주문을 시전하기 전에 그 구성요소를 구매해서 갖추고 있어야 합니다.",
+            "몇몇 주문들은 마법을 유지하기 위해 집중을 해야 합니다. 집중을 잃게 되면 주문은 종료됩니다.  당신이 집중을 요구하는 다른 주문을 시전하거나 행동불능 상태가 되거나 사망하게 되면 이전에 시전한 주문의 집중은 깨지게 됩니다. 당신이 주문에 집중하고 있을 때 피해를 입게 되면, 주문을 유지하기 위해 건강 내성 굴림을 굴려야 합니다. DC는 당신이 받은 피해의 절반이며, 그 결과가 10 미만이라면 최소 DC는 10입니다."
         ]
     },
     {
-        title: "Dash",
+        title: "질주/Dash",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "추가 이동력",
+        description: "이번 턴에 추가로 이동력을 얻게 됩니다.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "추가 이동력은 당신의 이동속도만큼 늘어나며, 만약 이동속도에 수정치를 받고 있다면 그 수정치도 영향을 줍니다."
         ]
     },
     {
-        title: "Disengage",
+        title: "퇴각/Disengage",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "기회 공격을 유발하지 않습니다.",
+        description: "당신이 퇴각 행동을 사용하면, 당신의 이동은 그 턴이 끝날 때까지 기회공격을 유발하지 않습니다.",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "회피/Dodge",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "공격을 회피",
+        description: "공격을 피하는 데 전념합니다.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "당신의 다음 턴이 시작될 때까지, 당신이 볼 수 있는 공격자가 가하는 모든 명중 굴림에는 불리점이 가해지며, 당신은 민첩 내성 굴림에 이점을 받을 수 있습니다.",
+            "당신은 행동불능 상태가 되거나 이동속도가 0으로 떨어진 상태에서는 이 행동의 효과를 얻을 수 없습니다."
         ]
     },
     {
-        title: "Escape",
+        title: "빠져나가기/Escape",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
+        subtitle: "붙잡힌 상태에서 빠져나가기",
+        description: "붙잡힌 상태에서 빠져나가기.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "붙잡힌 크리쳐는 행동을 사용해 탈출 시도를 할 수 있습니다.",
+            "탈출 시도를 하려면 근력(운동) 또는 민첩(곡예) 판정으로 당신의 근력(운동) 판정과 대결을 벌여 이겨야만 합니다."
         ]
     },
     {
-        title: "Help",
+        title: "원호/Help",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "동료에게 이점을 줍니다.",
+        description: "동료의 능력 판정이나 공격에 이점을 줍니다.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "당신이 원호 행동을 취하면, 당신이 도와주는 크리쳐는 도움을 받은 다음번 능력 판정에 이점을 받을 수 있습니다. ",
+            "그게 아니면, 당신은 주변 5ft 내에서 다른 크리쳐를 공격하려는 우호적인 크리쳐에게 도움을 줄 수 있습니다.",
+            "이 이점은 당신의 다음 턴이 시작되기 전까지만 지속됩니다."
         ]
     },
     {
-        title: "Use Object",
+        title: "물건 사용/Use Object",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "물건과 상호작용",
+        description: "물건과 두 번째 간단한 상호작용을 합니다.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "일반적인 경우, 칼을 뽑는 것은 공격 행동의 일환으로 취급하는 등 행동을 사용하지 않아도 물체를 다루는 것은 가능합니다. 그러나 두 번째 물체를 조작하려는 경우, 이 행동을 사용해야 합니다.",
+            "사용하기 위해 행동이 필요한 물건도 있으며, 그 경우 그 물건을 사용하기 위해서는 물건 사용 행동을 취해야 합니다."
         ]
     },
     {
-        title: "Use shield",
+        title: "방패 착용과 해제/Use Shield",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
+        subtitle: "방패를 착용하거나 해제",
+        description: "방패를 착용하거나 벗습니다.",
         reference: "PHB, pgs. 144-146.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "방패를 착용하거나 해제하는데에는 1 행동이 필요합니다.",
+            "갑옷을 착용하거나 해제하는데에는 몇 분이 걸립니다. 다른 사람의 도움으로 절반으로 줄일 수 있습니다."
         ]
     },
     {
-        title: "Hide",
+        title: "은신/Hide",
         icon: "hood",
-        subtitle: "",
-        description: "Attempt to hide",
+        subtitle: "은신을 시도합니다",
+        description: "은신을 시도합니다",
         reference: "PHB, pg. 192.",
         bullets: [
             "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
