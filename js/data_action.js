@@ -134,7 +134,8 @@ data_action = [
         description: "은신을 시도합니다",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
+            "당신은 당신을 분명히 볼 수 있는 크리쳐에게서는 숨을 수 없습니다. 당신은 
+            You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
             "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
             "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
             "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
