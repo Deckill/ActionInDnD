@@ -73,9 +73,10 @@ data_condition = [
         title: "행동불능 상태/Incapacitated",
         icon: "internal-injury",
         subtitle: "행동 불능에 빠졌습니다.",
-        description: "행동불능 상태의 크리쳐는 행동이나 반응행동을 할 수 없습니다.",
+        description: "",
         reference: "PHB, pg. 290.",
         bullets: [
+            "행동불능 상태의 크리쳐는 행동이나 반응행동을 할 수 없습니다."
         ]
     },
     {
@@ -94,108 +95,108 @@ data_condition = [
     {
         title: "마비 상태/Paralyzed",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "마비되었습니다.",
+        description: "아무 행동을 할 수 없습니다.",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "마비된 크리쳐는 행동불능 상태도 되며, 이동하거나 말도 할 수 없습니다.",
+            "마비 상태의 크리쳐를 공격하는 명중 굴림은 이점을 받습니다.",
+            "공격자가 마비 상태의 크리쳐로부터 5ft 내에서 공격을 가해 명중시켰다면, 해당 공격은 치명타가 됩니다.",
+            "마비 상태의 크리쳐는 근력과 민첩 내성 굴림에 자동으로 실패합니다."
         ]
     },
     {
-        title: "Petrified",
+        title: "석화 상태/Petrified",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "돌로 변했습니다.",
+        description: "석화된 크리쳐는 변형된 것이며, 자신이 이전에 장비하고 있거나 들고 있던 모든 비마법적 물건 역시 같이 무기물(대개는 돌)로 변해버립니다.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "이 상태에서 무게는 10배로 불어나며, 더는 나이도 먹지 않습니다.",
+            "석화된 크리쳐는 행동불능 상태이기도 하며, 말하거나 움직일 수 없고, 주변 환경을 인지할 수 없습니다.",
+            "석화된 크리쳐를 공격하는 명중 굴림은 이점을 받습니다.",
+            "석화된 크리쳐는 근력과 민첩 내성 굴림을 자동으로 실패합니다.",
+            "석화된 크리쳐는 모든 피해에 저항을 얻습니다.",
+            "석화된 크리쳐는 독과 질병에 면역이 되지만, 석화되기 전에 몸에 있던 독이나 질병은 사라지는 것이 아니고 그저 정지되어있을 뿐입니다."
         ]
     },
     {
-        title: "Poisoned",
+        title: "중독 상태/Poisoned",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "중독되었습니다",
+        description: "중독되었습니다",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "중독 상태의 크리쳐는 모든 명중 굴림과 능력 판정에 불리점을 받습니다."
         ]
     },
     {
-        title: "Prone",
+        title: "넘어짐 상태/Prone",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "넘어졌습니다.",
+        description: "넘어졌습니다.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "넘어진 크리쳐는 일어서지 않는 한 포복으로만 이동할 수 있으며, 일어나면 상태가 종료됩니다.",
+            "넘어진 크리쳐는 명중 굴림에 불리점을 받습니다.",
+            "공격자가 5ft 내에서 넘어진 크리쳐를 공격하는 명중 굴림은 이점을 받습니다. 5ft보다 멀리 떨어진 곳에서 가하는 명중 굴림에는 불리점을 받습니다."
         ]
     },
     {
-        title: "Restrained",
+        title: "포박 상태/Restrained",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "포박되었습니다.",
+        description: "포박되었습니다.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "포박된 크리쳐는 이동속도가 0이 되며, 이동속도에 아무런 보너스도 받을 수 없습니다.",
+            "포박된 크리쳐를 공격하는 명중 굴림은 이점을 받습니다.",
+            "포박된 크리쳐가 행하는 명중 굴림은 불리점을 받습니다.",
+            "포박된 크리쳐는 민첩 내성 굴림에 불리점을 받습니다."
         ]
     },
     {
-        title: "Stunned",
+        title: "충격 상태/Stunned",
         icon: "internal-injury",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "충격 상태의 크리쳐는 행동불능 상태이기도 합니다. 또한 충격 상태에서는 움직일 수 없으며, 말도 더듬거리기만 할 수 있습니다.",
+            "충격 상태의 크리쳐는 근력과 민첩 내성 굴림에 자동으로 실패합니다.",
+            "충격 상태의 크리쳐를 공격하는 명중 굴림은 이점을 받습니다."
         ]
     },
     {
-        title: "Unconscious",
+        title: "무의식 상태/Unconscious",
         icon: "coma",
         subtitle: "You are unconscious",
         description: "You are unconscious",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "무의식 상태의 크리쳐는 동시에 행동불능 상태이며, 이동이나 말하는 것도 불가능하고 주변 환경을 인지하지 못합니다.",
+            "무의식 상태의 크리쳐는 손에 들고 있는 것을 떨어트리며 넘어집니다.",
+            "무의식 상태의 크리쳐를 공격하는 명중 굴림은 이점을 받습니다.",
+            "무의식 상태의 크리쳐는 근력과 민첩 내성 굴림에 자동으로 실패합니다.",
+            "무의식 상태의 크리쳐로부터 5ft 내에서 가하는 공격이 명중하면 자동으로 치명타가 됩니다.",
         ]
     },
     {
-        title: "Dying",
+        title: "빈사 상태/Dying",
         icon: "dead-head",
         subtitle: "You are dying",
         description: "You have been dropped to zero hit points and are dying",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "당신의 hp가 0인 상태에서 자기 턴을 시작하게 되면, 당신은 특별한 종류의 내성 굴림인 죽음 내성 굴림을 굴려야 합니다. ",
+            "주문이나 다른 특별한 효과들은 죽음 내성 굴림에 영향을 가해 살아 돌아올 확률을 높여줄 수 있습니다.",
+            "다른 내성 굴림들과 달리, 죽음 내성 굴림에는 능력치가 사용되지 않습니다. ",
+            "결과가 10 이상이라면, 당신은 성공한 것입니다. 9 이하라면, 당신은 실패한 것입니다.",
+            "도합 3번 성공했다면, 당신은 안정화된 것입니다.",
+            " 도합 3번 실패했다면, 당신은 사망한 것입니다. ",
+            "1이 나왔다면, 2번 실패한 것으로 칩니다.",
+            "20이 나왔다면, 당신은 hp 1점을 회복합니다.",
+            "당신은 행동을 사용해 구급 도구를 통해 무의식 상태의 크리쳐를 안정화하려고 시도할 수 있습니다. 이 안정화 시도는 DC 10의 지혜(의학) 판정으로 이루어집니다.",
+            "안정화된 크리쳐는 1d4 시간이 지나서 스스로 1hp를 회복하게 됩니다."
         ]
     }
 ]
