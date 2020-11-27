@@ -1,97 +1,98 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "장님 상태/Blinded",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "앞을 볼 수 없습니다.",
+        description: "장님 상태의 크리쳐는 볼 수 없습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "시각이 필요한 능력 판정에 자동적으로 실패합니다.",
+            "장님 상태의 크리쳐를 공격하는 명중 굴림에는 이점이 가해집니다.",
+            "장님 상태의 크리쳐가 가하는 명중 굴림에는 불리점이 가해집니다."
         ]
     },
     {
-        title: "Charmed",
+        title: "매혹 상태/Charmed",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "매혹됬습니다.",
+        description: "다른 크리쳐에게 매혹됬습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "매혹된 크리쳐는 매혹자를 공격할 수 없으며, 매혹자를 목표로 해로운 능력이나 마법 효과를 사용할 수 없습니다.",
+            "매혹자는 매혹 상태의 크리쳐에 대해 사회적으로 교류할 때 모든 능력 판정에 이점을 받습니다."
         ]
     },
     {
-        title: "Deafened",
+        title: "귀머거리 상태/Deafened",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "들을 수 없습니다.",
+        description: "귀머거리 상태의 크리쳐는 들을 수 없습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            " 듣기와 관련된 모든 능력 판정에 자동적으로 실패합니다."
         ]
     },
     {
-        title: "Exhaustion",
+        title: "탈진 상태/Exhaustion",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "탈진 상태입니다.",
+        description: "탈진은 6단계로 구분됩니다.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "<table><tr><th>단계</th><th></th><th></th><th style='text-align:left'>효과</th></tr><tr><td>1</td><td></td><td></td><td>능력 판정에 불리점을 받습니다.</td></tr><tr><td>2</td><td></td><td></td><td>이동속도가 절반이 됩니다.</td></tr><tr><td>3</td><td></td><td></td><td>명중 굴림과 내성 굴림에 불리점을 받습니다.</td></tr><tr><td>4</td><td></td><td></td><td>최대 HP가 절반이 됩니다.</td></tr><tr><td>5</td><td></td><td></td><td>이동속도가 0이 됩니다.</td></tr><tr><td>6</td><td></td><td></td><td>죽음</td></tr></table>",
+            "2단계 이상의 탈진 상태에 걸려 있는 크리쳐는 자기보다 아래 단계의 효과도 모두 받게 됩니다.",
+            "긴 휴식을 마치며 음식과 물을 섭취한 크리쳐는 탈진이 1단계 낮아집니다.",
+            "죽음에서 부활한 크리쳐도 탈진이 1단계 낮아집니다.",
+            "탈진을 제거하는 효과는 설명에 쓰인 만큼 탈진 단계를 낮춥니다. 탈진 단계가 0 이하가 되면 탈진은 끝납니다."
         ]
     },
     {
-        title: "Frightened",
+        title: "공포 상태/Frightened",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "공포에 질렸습니다.",
+        description: "공포에 질렸습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "공포 상태의 크리쳐는 공포의 대상이 시선 내에 있을 때 모든 능력 판정과 명중 굴림에 불리점을 받습니다.",
+            "공포 상태의 크리쳐는 자의로 공포의 대상에게 가까이 갈 수 없습니다."
         ]
     },
     {
-        title: "Grappled",
+        title: "붙잡힘 상태/Grappled",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "붙잡혔습니다.",
+        description: "당신은 붙잡혔습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "붙잡힌 상태의 크리쳐는 이동속도가 0이 됩니다. 그리고 해당 크리쳐는 이동속도에 어떤 보너스도 받을 수 없습니다.",
+            "만약 붙잡은 자가 행동불능 상태에 빠지면 이 붙잡힘 상태는 자동으로 종료됩니다.",
+            "강제 이동 효과로 인해 붙잡힌 크리쳐가 붙잡은 자의 간격에서 벗어나게 되면 붙잡힘 상태는 자동으로 종료됩니다. "
         ]
     },
     {
-        title: "Incapacitated",
+        title: "행동불능 상태/Incapacitated",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "행동 불능에 빠졌습니다.",
+        description: "행동불능 상태의 크리쳐는 행동이나 반응행동을 할 수 없습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "투명 상태",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "당신은 보이지 않습니다.",
+        description: "투명 상태의 크리쳐는 마법이나 특별한 감각의 도움 없이 볼 수 없습니다.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "은신이 가능한가를 판정할 때, 투명 상태의 크리쳐는 심하게 가려져 있는 상태로 취급합니다. ",
+            "이 크리쳐의 위치는 소리로 파악하거나 움직이며 남기는 흔적으로 알아차릴 수 있습니다.",
+            "투명 상태의 크리쳐는 명중 굴림에 이점을 받습니다.",
+            "투명 상태의 크리쳐를 공격하려는 명중 굴림에는 불리점을 받습니다."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "마비 상태/Paralyzed",
         icon: "internal-injury",
         subtitle: "You are paralyzed",
         description: "You can't do anything",
