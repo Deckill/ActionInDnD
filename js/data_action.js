@@ -134,67 +134,68 @@ data_action = [
         description: "은신을 시도합니다",
         reference: "PHB, pg. 192.",
         bullets: [
-            "당신은 당신을 분명히 볼 수 있는 크리쳐에게서는 숨을 수 없습니다. 당신은 
-            You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "당신은 당신을 분명히 볼 수 있는 크리쳐에게서는 숨을 수 없습니다. 당신은 완전 엄폐 상태, 심하게 가려진 상태, 투명 상태, 또는 다른 크리쳐의 시야를 막아야 합니다.",
+            "만약 당신이 꽃병을 깨거나 경고의 외침을 지르는 등 소음을 낸다면 당신의 위치를 들키게 됩니다.",
+            "당신이 숨으려 할 때, 민첩(은신) 판정을 하게 됩니다. 당신이 누군가에게 발견되거나 더는 숨지 않으려 할 때까지, 해당 판정의 결과가 당신을 찾으려는 다른 누군가의 지혜(감지) 판정의 난이도가 됩니다.",
+            "당신이 은신해 있을 때, 다른 크리쳐들은 적극적으로 수색하고 있지 않더라도 당신을 발견할 확률이 있습니다. ",
+            "비전투 상황에서도 당신은 적들에게서 스스로 몸을 숨기려 할 때나 몰래 경비병을 지나치려 할 때, 들키지 않고 빠져나가려 할 때, 혹은 보이거나 소리를 내지 않고 숨으려 할 때 등 DM이 은신을 요구할 때 민첩(은신) 판정을 해야 합니다."
         ]
     },
     {
-        title: "Search",
+        title: "수색/Search",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Devote your attention to finding something",
+        description: "무언가를 찾는데 전력을 기울입니다",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "당신이 찾으려는 것이 무엇인가에 따라 DM은 지혜(감지) 판정이나 지능(수사) 판정을 요구할 수 있습니다."
         ]
     },
     {
-        title: "Ready",
+        title: "대기/Ready",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "발동 조건과 행동을 선택합니다.",
+        description: "발동 조건과 행동을 선택합니다.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "먼저, 당신은 반응행동의 발동조건을 지정합니다.",
+            "그런 다음, 당신은 발동조건이 걸렸을 때 어떤 행동을 취할지를 선택합니다. 혹은 발동 조건이 걸렸을 때 그에 반응해 어떻게 이동하겠다는 식으로 정해도 됩니다.",
+            "발동 조건이 일어나면, 당신은 반응행동을 사용해 발동 조건이 되는 사건이 끝난 직후 정해진 대로 움직이거나, 발동 조건을 무시하는 것을 택할 수 있습니다.",
+            "당신이 주문을 준비한다면, 당신은 정상적으로 주문을 시전한 것이지만 그 힘이 나타나는 것을 보류하고 있다가, 발동 조건이일어나면 주문의 힘을 해방한 것입니다. 시전 시간이 1 행동인 주문만을 대기할 수 있으며, 주문의 힘을 보류하고 있으려면 그동안 당신은 집중을 유지해야 합니다."
         ]
     },
     {
-        title: "Use class feature",
+        title: "클래스 요소를 사용/Use class feature",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "몇몇 요소들은 액션을 요구합니다",
+        description: "종족 또는 클래스 요소를 사용합니다.",
+        reference: "제3장 클래스를 참조하십시오.",
         bullets: [
 
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "크리쳐 안정화/Stabilize a creature",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
+        subtitle: "죽음 내성 굴림을 요구하는 크리쳐를 안정화",
+        description: "행동을 사용해 구급 도구를 통해 무의식 상태의 크리쳐를 안정화하려고 시도할 수 있습니다.",
         reference: "PHB, pg. 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "안정화 시도는 DC 10의 지혜(의학) 판정으로 이루어집니다.",
+            "안정화된 크리쳐는 hp가 0이긴 하지만 죽음 내성 굴림을 굴릴 필요가 없으며, 여전히 무의식 상태로 남아 있습니다.",
+            " 이 상태에서 다시 피해를 받게 되면 안정화는 중단되며, 다시 죽음 내성 굴림을 굴리기 시작해야 합니다.",
+            "안정화된 크리쳐가 치유를 받지 않을 경우, 1d4 시간이 지나서 스스로 1hp를 회복하게 됩니다."
         ]
     },
     {
-        title: "Improvise",
+        title: "임기 응변/Improvise",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "여기서 다루고 있지 않은 행동을 시도",
+        description: "당신이 상상할 수 있는 행동을 합니다",
         reference: "PHB, pg. 193.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "문을 깨부수려 한다거나, 적을 위협하려 하거나, 마법적인 방어의 약점을 찾아보려 하거나, 적과 협상을 벌이려 하는 등이 이러한 행동에 해당합니다.",
+            "당신이 다른 규칙들로는 설명되지 않는 행동을 하려 할 경우, DM은 그 행동이 가능한지 아닌지, 그리고 성공이냐 실패냐를 알기 위해 판정이 필요한 경우 어떤 판정을 해야 하는지 당신에게 이야기해 줄 것입니다."
         ]
     }
 ]
