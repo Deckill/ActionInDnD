@@ -134,7 +134,7 @@ data_movement = [
     {
         title: "올라타기와 내리기/Mounting and Dismounting",
         icon: "horse-head",
-        subtitle: "비용: 이동력의 ",
+        subtitle: "비용: 이동력의 절반",
         description: " 올라타기나 내리기는 당신의 이동력 절반을 소비하는 행동입니다.",
         reference: "PHB, pg. 190.",
         bullets: [
