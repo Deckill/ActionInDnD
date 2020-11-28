@@ -1,14 +1,14 @@
 data_condition = [
     {
-        title: "장님 상태/Blinded",
+        title: "시각 상실 상태/Blinded",
         icon: "one-eyed",
         subtitle: "앞을 볼 수 없습니다.",
-        description: "장님 상태의 크리쳐는 볼 수 없습니다.",
+        description: "시각 상실 상태의 크리쳐는 볼 수 없습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
             "시각이 필요한 능력 판정에 자동적으로 실패합니다.",
-            "장님 상태의 크리쳐를 공격하는 명중 굴림에는 이점이 가해집니다.",
-            "장님 상태의 크리쳐가 가하는 명중 굴림에는 불리점이 가해집니다."
+            "시각 상실 상태의 크리쳐를 공격하는 명중 굴림에는 이점이 가해집니다.",
+            "시각 상실 상태의 크리쳐가 가하는 명중 굴림에는 불리점이 가해집니다."
         ]
     },
     {
@@ -23,13 +23,13 @@ data_condition = [
         ]
     },
     {
-        title: "귀머거리 상태/Deafened",
+        title: "청각 상실 상태/Deafened",
         icon: "elf-ear",
         subtitle: "들을 수 없습니다.",
-        description: "귀머거리 상태의 크리쳐는 들을 수 없습니다.",
+        description: "청각 상실 상태의 크리쳐는 들을 수 없습니다.",
         reference: "PHB, pg. 290.",
         bullets: [
-            " 듣기와 관련된 모든 능력 판정에 자동적으로 실패합니다."
+            "듣기와 관련된 모든 능력 판정에 자동적으로 실패합니다."
         ]
     },
     {
