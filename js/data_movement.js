@@ -26,10 +26,10 @@ data_movement = [
         ]
     },
     {
-        title: "Swim",
+        title: "수영/Swim",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "비용: 5ft 당 10ft",
+        description: "5ft를 수영하는데 10ft의 이동력이 소모됩니다.",
         reference: "PHB, pg. 182.",
         bullets: [
             "거친 물살을 가르고 수영해야 할 경우 역시 근력(운동) 판정이 필요할 수 있습니다.",
@@ -37,10 +37,10 @@ data_movement = [
         ]
     },
     {
-        title: "넘어진 상태/Drop prone",
+        title: "넘어지기/Drop prone",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        subtitle: "비용: 0ft",
+        description: "넘어지거나 엎드리는데 이동력이 소모되지 않습니다.",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
             "당신은 행동력을 전혀 소비하지 않고도 엎드리기를 할 수 있습니다.",
@@ -51,8 +51,8 @@ data_movement = [
     {
         title: "포복/Crawl",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "비용: 5ft 당 10ft",
+        description: "5ft를 포복하는데 10ft의 이동력이 소모됩니다.",
         reference: "PHB, pg. 182.",
         bullets: [
             "넘어진 상태에서 이동하려면, 당신은 포복하거나 순간이동 같은 마법적 수단을 이용해야 합니다.",
@@ -62,8 +62,8 @@ data_movement = [
     {
         title: "일어서기/Stand up",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
+        subtitle: "비용: 이동력의 절반",
+        description: "일어서는데 최대 이동력의 절반이 소모됩니다.",
         reference: "PHB, pg. 190-191.",
         bullets: [
             "일어서기는 더 큰 노력이 필요하며, 일어서려면 당신의 이동속도 절반을 소비해야 합니다.",
@@ -73,8 +73,8 @@ data_movement = [
     {
         title: "높이뛰기/High jump",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "비용: 5ft 당 5ft",
+        description: "5ft를 높이 뛰는데 10ft의 이동력이 소모됩니다.",
         
         reference: "PHB, pg. 182.",
         bullets: [
@@ -87,8 +87,8 @@ data_movement = [
     {
         title: "멀리뛰기/Long jump",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "비용: 5ft 당 5ft",
+        description: "5ft를 멀리 뛰는데 10ft의 이동력이 소모됩니다.",
         reference: "PHB, pg. 182.",
         bullets: [
             "먼 거리를 뛰어넘으려 할 때, 당신은 최소 10ft의 도움닫기를 했다는 가정하에 근력 점수 1점당 1ft를 뛰어넘을 수 있습니다.",
@@ -100,8 +100,8 @@ data_movement = [
     {
         title: "임기응변/Improvise",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "이 리스트에 없는 이동이나 곡예",
+        description: "당신이 상상할 수 있는 이동이나 곡예를 합니다.",
         bullets: [
             "당신이 아래 설명된 규칙들에 해당하지 않는 이동을 하려 하는 경우, DM은 그 이동이 가능한지 아닌지와 그 이동을 위해서 판정이 필요하다면 어떤 판정을 해야 하는지 말해 줄 것입니다."
         ]
@@ -109,9 +109,9 @@ data_movement = [
     {
         title: "어려운 지형/Difficult terrain",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "비용 수정치: 5ft 당 +5ft",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "어려운 지형에서 1ft 이동할 때마다 추가로 1ft의 이동력이 소모됩니다.",
         bullets: [
             "당신이 어려운 지형을 이동할 때는 1ft 이동할 때마다 추가로 1ft씩의 이동력을 더 소모합니다.",
             "이 규칙은 어려운 지형이 될 수 있는 요소가 여러 가지 동시에 존재한다고 해도 마찬가지입니다.",
@@ -123,7 +123,7 @@ data_movement = [
     {
         title: "붙잡힌 크리쳐 움직이기/Grapple move",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
+        subtitle: "비용 수정치: 이동력의 반감",
         description: "당신이 움직이게 되면, 당신은 붙잡고 있는 크리쳐를 같이 움직일 수 있습니다. ",
         reference: "PHB, pg. 195.",
         bullets: [
