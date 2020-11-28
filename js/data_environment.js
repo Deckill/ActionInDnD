@@ -122,7 +122,7 @@ data_environment_cover = [
         ]
     },
     {
-        title: "Full cover",
+        title: "완전 엄폐/Full cover",
         icon: "shield",
         subtitle: "직접적인 공격이나 주문의 목표가 될 수 없습니다.",
         description: "완전 엄폐를 가진 목표는 장애물로 완전히 가려져 있는 것입니다.",
