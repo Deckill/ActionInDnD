@@ -14,24 +14,25 @@ data_reaction = [
         ]
     },
     {
-        title: "Readied action",
+        title: "대기했던 행동/Readied action",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
+        subtitle: "대기 행동 발동",
         description: "Execute the reaction specified by your Ready action",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "지정된 반응행동의 발동 조건이 일어나면, 당신은 반응행동을 사용해 발동 조건이 되는 사건이 끝난 직후 정해진 대로 움직이거나, 발동 조건을 무시하는 것을 택할 수 있습니다.",
+            "행동 탭의 대기 행동 참조"
         ]
     },
     {
-        title: "Cast a spell",
+        title: "주문 시전/Cast a spell",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "1 반응행동의 시전 시간",
+        description: "1 반응행동의 시전시간을 가진 주문을 시전합니다.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "1 반응행동의 시전시간을 가진 주문을 시전합니다.",
+            "행동 탭의 주문 시전 참조"
         ]
     }
 ]
