@@ -78,36 +78,36 @@ data_movement = [
         
         reference: "PHB, pg. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "당신은 최소 10ft의 도움닫기를 했다는 가정하에 <b>3 + 당신의 근력 수정치 ft</b> 만큼의 높이까지 뛰어오를 수 있습니다.",
+            "만약 당신이 제자리에서 높이뛰기를 한 경우, 이 높이의 절반까지만을 뛰어오를 수 있습니다.",
+            "당신은 높이 뛰기를 할 때, 팔을 위로 뻗어 키의 절반 높이까지를 더 손댈 수 있습니다. 따라서 당신이 위로 닿을 수 있는 최대 높이는 당신이 높이뛰기를 한 높이 + 당신 키 ˟ 1.5까지가 됩니다.",
+            " 몇몇 특정한 상황에서는 DM이 근력(운동) 판정에 성공한 경우 평소보다 높이 뛰어오를 수 있다고 판단할 수도 있습니다."
         ]
     },
     {
-        title: "Long jump",
+        title: "멀리뛰기/Long jump",
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "먼 거리를 뛰어넘으려 할 때, 당신은 최소 10ft의 도움닫기를 했다는 가정하에 근력 점수 1점당 1ft를 뛰어넘을 수 있습니다.",
+            "제자리에 서서 멀리 뛰려 하는 경우, 오직 근력 점수의 절반만큼만 뛰어넘을 수 있습니다. ",
+            "DM은 선택 규칙으로 DC 10의 근력(운동) 판정에 성공해야 낮은 벽이나 울타리 등의 장애물을 뛰어넘을 수 있다고 선언할 수 있습니다. 이 판정에 실패한 경우 장애물에 충돌해 떨어진 것이 됩니다.",
+            "당신이 어려운 지형에 착지한다면, 먼저 DC 10의 민첩(곡예)판정에 성공해야 제대로 착지할 수 있습니다. 이 판정에 실패한 경우 당신은 도착 지점에 넘어지게 됩니다."
         ]
     },
     {
-        title: "Improvise",
+        title: "임기응변/Improvise",
         icon: "juggler",
         subtitle: "Any stunt not on this list",
         description: "Perform any movement or stunt you can imagine",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "당신이 아래 설명된 규칙들에 해당하지 않는 이동을 하려 하는 경우, DM은 그 이동이 가능한지 아닌지와 그 이동을 위해서 판정이 필요하다면 어떤 판정을 해야 하는지 말해 줄 것입니다."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "어려운 지형/Difficult terrain",
         icon: "stone-pile",
         subtitle: "Cost modifier: +5ft per 5ft",
         reference: "PHB, pg. 182.",
@@ -121,14 +121,14 @@ data_movement = [
         ]
     },
     {
-        title: "Grapple move",
+        title: "붙잡힌 크리쳐 움직이기/Grapple move",
         icon: "grab",
         subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        description: "당신이 움직이게 되면, 당신은 붙잡고 있는 크리쳐를 같이 움직일 수 있습니다. ",
         reference: "PHB, pg. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            " 이 경우 당신의 이동력은 절반이 됩니다. 붙잡은 크리쳐가 당신보다 두 단계 이상 작은 경우에는 이동력이 줄어들지 않습니다.",
+            "크리쳐를 붙잡는 방법은 공격 행동의 붙잡기를 참조하십시오."
         ]
     }
 ]
